@@ -1,0 +1,36 @@
+{
+  "version": 3,
+  "middleware": {},
+  "functions": {
+    "/api/create-session/route": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/api/create-session/route_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/api/create-session/route.js"
+      ],
+      "name": "app/api/create-session/route",
+      "page": "/api/create-session/route",
+      "matchers": [
+        {
+          "regexp": "^/api/create\\-session$",
+          "originalSource": "/api/create-session"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "HL+X1uJkWrYBIcEPB9z8P5dJOS4qCsZhpBWHVzkc0Mo=",
+        "__NEXT_PREVIEW_MODE_ID": "2fe9314c003e1be2b036b7c16a09165d",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "b3f5e5cdecb1811cc28ceb8707aab820ef5cfc44bc4057df7e0823c09f7b5f46",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "b4e5e27843ce9d9f432deacfca7c71cbc8efbb15bc5380acc787b2bce11394c8"
+      }
+    }
+  },
+  "sortedMiddleware": []
+}
